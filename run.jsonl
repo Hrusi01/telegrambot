@@ -1,0 +1,11 @@
+{"type": "incoming", "chat_id": 6124708686, "text": "What is 15% of 200?", "timestamp": 1785424496.1097176}
+{"type": "outgoing", "chat_id": 6124708686, "text": "{\"answer\": 30, \"log_url\": \"https://hrusi01.github.io/telegram-bot-logs/run.jsonl\"}", "timestamp": 1785424505.0241055}
+{"type": "incoming", "chat_id": 6124708686, "text": "what is your name", "timestamp": 1785424585.1197171}
+{"type": "incoming", "chat_id": 6124708686, "text": "hiii brother", "timestamp": 1785425066.0945845}
+{"type": "outgoing", "chat_id": 6124708686, "text": "{\"response\": \"Hey! How can I help you with data analysis today?\", \"log_url\": \"https://hrusi01.github.io/telegram-bot-logs/run.jsonl\"}", "timestamp": 1785425075.5076811}
+{"type": "incoming", "chat_id": 6124708686, "text": "good", "timestamp": 1785425100.921495}
+{"type": "outgoing", "chat_id": 6124708686, "text": "{\"response\": \"Great! What would you like to do next?\", \"log_url\": \"https://hrusi01.github.io/telegram-bot-logs/run.jsonl\"}", "timestamp": 1785425105.7828617}
+{"type": "incoming", "chat_id": 6124708686, "text": "hii", "timestamp": 1785425536.7411485}
+{"type": "outgoing", "chat_id": 6124708686, "text": "{\"reply\": \"Hi! How can I help you today?\", \"log_url\": \"https://hrusi01.github.io/telegram-bot-logs/run.jsonl\"}", "timestamp": 1785425541.4886777}
+{"type": "incoming", "chat_id": 6124708686, "text": "What is 15% of 200? Reply with ONLY this JSON:", "timestamp": 1785425605.0700862}
+{"type": "outgoing", "chat_id": 6124708686, "text": "{\"result\": 30, \"log_url\": \"https://hrusi01.github.io/telegram-bot-logs/run.jsonl\"}", "timestamp": 1785425609.876635}
