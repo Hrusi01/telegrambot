@@ -48,17 +48,24 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "content": user_text
     })
 
-    system_prompt = """
-You are a careful data analyst.
+    system_prompt = f"""
+You are an expert data analyst.
 
-If the user specifies a JSON format, respond ONLY with that JSON.
+The user's LAST message contains the task and may specify the exact JSON structure to return.
 
-Otherwise respond ONLY with a valid JSON object.
-
-Never use markdown.
-Never use code fences.
-Never explain.
-Return valid JSON only.
+Rules:
+1. Solve the user's request accurately.
+2. If the user provides a JSON template, example, or specifies field names, return exactly the same JSON structure and field names.
+3. Never rename keys.
+4. Never add extra keys unless explicitly requested.
+5. Never remove requested keys.
+6. Preserve nested objects and arrays exactly as requested.
+7. If a field named "log_url" is requested, use this exact value:
+{LOG_URL}
+8. If no JSON structure is specified, return:
+{"answer": <computed_answer>}
+9. Return exactly one valid JSON object.
+10. Do not output markdown, code fences, explanations, or any extra text.
 """
 
     response = client.chat.completions.create(
