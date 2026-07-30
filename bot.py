@@ -8,10 +8,6 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 # CONFIG
 # ==========================
 
-TELEGRAM_BOT_TOKEN = "8295061522:AAH3rbUOAeWu2G3htVS4iRG446WDuHj5eas"
-AIPIPE_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjMwMDI5MzZAZHMuc3R1ZHkuaWl0bS5hYy5pbiIsImlhdCI6MTc4NTQyMTk2NSwiaXNzIjoiaHR0cHM6Ly9haXBpcGUub3JnIiwiYXVkIjoiYWlwaXBlLWFwaSIsImV4cCI6MTc4NjAyNjc2NX0.047wFG2NBqIRkr-SCItNUJZEKjKsp_QcnY96zmPeQ_8"
-LOG_URL = "https://hrusi01.github.io/telegram-bot-logs/run.jsonl"
-
 # ==========================
 
 client = OpenAI(
