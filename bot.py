@@ -7,6 +7,11 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 # ==========================
 # CONFIG
 # ==========================
+import os
+
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
+LOG_URL = os.environ["LOG_URL"]
 
 # ==========================
 
